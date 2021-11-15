@@ -27,6 +27,6 @@ This deployment guide is designed to get user quickly up and running with Teradi
 
 1. Register on Teradici protal to obtain software
 
-1. Download softward from portal depending on OS
+1. Download softward depending on OS host requirements
 
-1. 
+1. Install software (dependencies on GPU driver being installed)
