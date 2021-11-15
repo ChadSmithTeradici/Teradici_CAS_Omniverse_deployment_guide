@@ -23,6 +23,8 @@ There are three deployment scenarios for workstations/laptops for Teradici CAS a
 + Install Nvidia Omniverse
 + Creating your first project
 
+There are three deployment scenarios for workstations/laptops for Teradici CAS and Omniverse software. The first scenario is when the device will be used remotely to log into centralized infrastructure which is hosting applications, CAS client is installed on the workstation. The second scenario is when the workstation/laptop will be used as a host with applications installed and a secondary device, such as a CAS, thin or zero client will make a connect to the workstation. In this situation CAS agent is installed on the workstation The third scenario is when a workstation hosts applications but need access to remote applications that is when the CAS agent and client is installed on the workstation.
+
 ## Installing Teradici CAS
 
 1. Obtain registration key
