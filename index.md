@@ -1,5 +1,5 @@
 ---
-title: Quick Guide for installing Teradici CAS and Nvidia Omniverse for a small workgroup senerio
+title: Quick Guide for Teradici CAS and Nvidia Omniverse
 description: Steps to get started with Teradici CAS and Nvidia Omniverse solution for remote collaboration
 author: chad-m-smith
 tags: CAS,PCoIP, Omniverse 
