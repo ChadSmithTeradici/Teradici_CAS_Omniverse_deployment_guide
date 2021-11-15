@@ -12,7 +12,7 @@ Chad Smith | Technical Alliance Architect at Teradici | HP
 
 This deployment guide is designed to get user quickly up and running with Teradici and Omniverse
 
-![image](
+![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Omniverse_deployment_guide/blob/main/images/QS-CASandOmniverseDiagram.jpg)
 
 ## Objectives
 
