@@ -12,6 +12,8 @@ Chad Smith | Technical Alliance Architect at Teradici | HP
 
 This deployment guide is designed to get user quickly up and running with Teradici and Omniverse bundle. 
 
+There are three deployment scenarios for workstations/laptops for Teradici CAS and Omniverse software. The first scenario is when the device will be used remotely to log into centralized infrastructure which is hosting applications, CAS client is installed on the workstation. The second scenario is when the workstation/laptop will be used as a host with applications installed and a secondary device, such as a CAS, thin or zero client will make a connect to the workstation. In this situation CAS agent is installed on the workstation The third scenario is when a workstation hosts applications but need access to remote applications that is when the CAS agent and client is installed on the workstation.
+
 ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Omniverse_deployment_guide/blob/main/images/QS-CASandOmniverseDiagram.jpg)
 
 ## Objectives
