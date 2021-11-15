@@ -10,21 +10,16 @@ Chad Smith | Technical Alliance Architect at Teradici | HP
 
 <p style="background-color:#CAFACA;"><i>Contributed by Teradici employees.</i></p>
 
-This script is designed to allow Teradici end users to power on their EC2 instances remotely without having to access the EC2 dashboard. It will also find the public or elastic IP of the instances and pass the connection info to a PCoIP connection string automatically. While larger Teradici deployments will benefit from [Cloud Access Manager (CASM)](https://www.teradici.com/web-help/cas_manager_as_a_service/) when multiple instances reside in the same region. It is cost prohibited to run CASM connection gateways (CAC) when only a handful of user’s instances per region are needed and/or customer are interested in leveraging AWS local zones where the cost of perpetually running a CAC is cost prohibited.
+This deployment guide is designed to get user quickly up and running with Teradici and Omniverse
 
-**AWS EC2 PCoIP Quick connect script workflow, components and dependencies.**
-
-   ![image](https://github.com/ChadSmithTeradici/AWS_EC2_PCoIP_QuickConnect_Script/blob/main/images/AWS_EC2_PCoIP_QuickConnect.jpg)
+![image](
 
 ## Objectives
 
-+ Create EC2 instances in AWS.
-+ Create an IAM role/policy to lock down access to instances
-+ Apply Policy to user and programmatic access to resources 
-+ Download and configure AWS CLI 
-+ Install PCoIP Client software
-+ Create script and set permission on client.
-
++ Understanding network topology ports opened for Application access
++ Install Teradici CAS software.
++ Install Nvidia Omniverse
++ Creating your first project
 
 ## Costs
 
