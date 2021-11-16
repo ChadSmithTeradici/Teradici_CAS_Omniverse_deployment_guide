@@ -10,9 +10,9 @@ Chad Smith | Technical Alliance Architect at Teradici | HP
 
 <p style="background-color:#CAFACA;"><i>Contributed by Teradici employees.</i></p>
 
-This deployment guide is designed to get user quickly up and running with Teradici and Omniverse bundle. 
+This deployment guide is designed to get users up and running quickly with the Teradici and Omniverse bundle. For reference, Teradici CAS allows for pixel and color accurate representation of host system remotely across great distances while Omniverse allows for in application collaboration between participates.  Combined, our solutions work in conjunction to provide remote users the ability to collaborate and conduct real-time photorealistic simulation using their native applications regardless of the distance between them. 
 
-There are three deployment scenarios for workstations/laptops for Teradici CAS and Omniverse software. The first scenario is when the device will be used remotely to log into centralized infrastructure which is hosting applications, CAS client is installed on the workstation. The second scenario is when the workstation/laptop will be used as a host with applications installed and a secondary device, such as a CAS, thin or zero client will make a connect to the workstation. In this situation CAS agent is installed on the workstation The third scenario is when a workstation hosts applications but need access to remote applications that is when the CAS agent and client is installed on the workstation.
+There are three deployment scenarios for workstations/laptops for Teradici CAS and Omniverse software. The first scenario is when the device will be used remotely to log into centralized infrastructure which is hosting applications, CAS client is installed on the workstation. The second scenario is when the workstation/laptop will be used as a host for applications and a secondary device, such as a CAS, thin or zero client will make a connect to the workstation remotely. In this situation CAS agent is installed on the workstation. The final scenario is when a workstation hosts applications but need access to remote applications as well, the workstation can act as both a host and client depending on the situation, this is when both the CAS agent and client is installed on the workstation.
 
 ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Omniverse_deployment_guide/blob/main/images/QS-CASandOmniverseDiagram.jpg)
 
@@ -23,7 +23,7 @@ There are three deployment scenarios for workstations/laptops for Teradici CAS a
 + Install Nvidia Omniverse
 + Creating your first project
 
-There are three deployment scenarios for workstations/laptops for Teradici CAS and Omniverse software. The first scenario is when the device will be used remotely to log into centralized infrastructure which is hosting applications, CAS client is installed on the workstation. The second scenario is when the workstation/laptop will be used as a host with applications installed and a secondary device, such as a CAS, thin or zero client will make a connect to the workstation. In this situation CAS agent is installed on the workstation The third scenario is when a workstation hosts applications but need access to remote applications that is when the CAS agent and client is installed on the workstation.
+
 
 ## Installing Teradici CAS
 
