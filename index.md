@@ -17,7 +17,7 @@ There are **three deployment scenarios** for workstations with Teradici CAS and 
 + **2nd scenario:** Is when the workstation/laptop will be used as a host for applications and a secondary device, such as a CAS, thin or zero client will make a connect to the workstation remotely. In this situation CAS agent is installed on the workstation. 
 + **3rd scenario:** Is when a workstation hosts applications but need access to remote applications as well, the workstation can act as both a host and client depending on the situation, this is when both the CAS agent and client is installed on the workstation.
 
-As it pertains to Omniverse, it generally is installed on the host system(s) that themselves are connected to a local area networks (LANs) for optimal real-time in application collaboration. The Necleus server does have build-in file synch and share service, but doesn't allow for real-time collaboration between participates, which diminishes the value of Omniverse. The illustration below shows each of the deployment senerios that will be discussed:
+As it pertains to Omniverse, it generally is installed on the host system(s) that are usually on a local area networks (LANs) for optimal real-time in application collaboration. The Necleus server does have build-in file synch and share service, but doesn't allow for real-time collaboration between participates, which diminishes the value of Omniverse. The illustration below shows each of the deployment senerios that will be discussed:
 
 ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Omniverse_deployment_guide/blob/main/images/QS-CASandOmniverseDiagram.jpg)
 
