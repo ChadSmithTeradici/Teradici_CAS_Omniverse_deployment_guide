@@ -13,9 +13,9 @@ Chad Smith | Technical Alliance Architect at Teradici | HP
 This deployment guide is designed to get users up and running quickly with the Teradici and Omniverse bundle. For reference, Teradici CAS provides pixel and color accurate representation of host systems remotely across great distances, while Omniverse allows for in application collaboration between participates.  Our solutions work in conjunction to provide remote users the ability to collaborate and conduct real-time photorealistic simulation using their native applications regardless of the distance between them. 
 
 There are **three deployment scenarios** for workstations with Teradici CAS and Omniverse software. 
-+ **scenario 1:** Is when the device will be used remotely to log into centralized infrastructure which is hosting applications, CAS client is installed on the workstation. 
-+ **scenario 2:** Is when the workstation/laptop will be used as a host for applications and a secondary device, such as a CAS, thin or zero client will make a connect to the workstation remotely. In this situation CAS agent is installed on the workstation. 
-+ **scenario 3:** Is when a workstation hosts applications but need access to remote applications as well, the workstation can act as both a host and client depending on the situation, this is when both the CAS agent and client is installed on the workstation.
++ **Scenario 1:** Is when the device will be used remotely to log into centralized infrastructure which is hosting applications, CAS client is installed on the workstation. 
++ **Scenario 2:** Is when the workstation/laptop will be used as a host for applications and a secondary device, such as a CAS, thin or zero client will make a connect to the workstation remotely. In this situation CAS agent is installed on the workstation. 
++ **Scenario 3:** Is when a workstation hosts applications but need access to remote applications as well, the workstation can act as both a host and client depending on the situation, this is when both the CAS agent and client is installed on the workstation.
 
 As it pertains to **Omniverse** in these deployment scenarios, it generally is installed on the host system(s) that are usually on a local area networks (LANs) with the other participating workstations for optimal real-time collaboration. Remote contributers will connect into a workstation that has all applications, including Omniverse installed. Files can either be kept local or centralized on NAS (network attached storage) with a Necleus server acting a syning mechanism between participants. The Necleus server does have build-in file synch and share service, but doesn't allow for real-time collaboration between participates when working remotly, which diminishes the value of Omniverse. The illustration below shows each of the deployment senerios that will be discussed:
 
@@ -32,7 +32,7 @@ As it pertains to **Omniverse** in these deployment scenarios, it generally is i
 
 ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Omniverse_deployment_guide/blob/main/images/Firewall%20rules.jpg)
 
-## Installing Teradici CAS client Client and connect to a Host
+## Scenerio 1: Installing Teradici CAS client Client and connect to a Host
 In this section, you will establish a connection to your instance using PCoIP. You will need to install a PCoIP client on your client system that will be used to initiate the session to the EC2 Mac Instance in AWS. Depending on your network topology, use will either connect to the local IP (or) ephemeral/elastic Public IP (or) Fully Qualified Domain Names (FQDN)
 
 1. [Download the client installer](https://docs.teradici.com/find/product/software-and-mobile-clients) based on your client OS. You don't need a login credentials to download client software and can have as many copys of various client OS as you need.
