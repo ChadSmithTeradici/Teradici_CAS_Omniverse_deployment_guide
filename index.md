@@ -28,9 +28,9 @@ As it pertains to **Omniverse** in these deployment scenarios, it generally is i
 + Install Nvidia Omniverse
 + Creating your first project
 
+## Opening port for communications
 
-## Installing Teradici CAS client
-## Install PCoIP Client and connect to EC2 Mac Instance
+## Installing Teradici CAS client Client and connect to a Host
 In this section, you will establish a connection to your instance using PCoIP. You will need to install a PCoIP client on your client system that will be used to initiate the session to the EC2 Mac Instance in AWS. Depending on your network topology, use will either connect to the local IP (or) ephemeral/elastic Public IP (or) Fully Qualified Domain Names (FQDN)
 
 1. [Download the client installer](https://docs.teradici.com/find/product/software-and-mobile-clients) based on your client OS. You don't need a login credentials to download client software and can have as many copys of various client OS as you need.
