@@ -30,6 +30,8 @@ As it pertains to **Omniverse** in these deployment scenarios, it generally is i
 
 ## Opening port for communications
 
+Omniverse communications happens between workstations that have Neculeus Workstation applaiction, Neculeus Server / Database and any file services holding the USD files. These services typically are installed on the 
+
 ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Omniverse_deployment_guide/blob/main/images/Firewall%20rules.jpg)
 
 ## Scenerio 1: Installing Teradici CAS client Client and connect to a Host
