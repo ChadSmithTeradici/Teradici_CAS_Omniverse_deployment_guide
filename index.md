@@ -30,6 +30,8 @@ As it pertains to **Omniverse** in these deployment scenarios, it generally is i
 
 ## Opening port for communications
 
+![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Omniverse_deployment_guide/blob/main/images/Firewall%20rules.jpg)
+
 ## Installing Teradici CAS client Client and connect to a Host
 In this section, you will establish a connection to your instance using PCoIP. You will need to install a PCoIP client on your client system that will be used to initiate the session to the EC2 Mac Instance in AWS. Depending on your network topology, use will either connect to the local IP (or) ephemeral/elastic Public IP (or) Fully Qualified Domain Names (FQDN)
 
