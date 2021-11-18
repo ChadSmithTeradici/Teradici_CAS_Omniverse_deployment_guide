@@ -30,7 +30,18 @@ As it pertains to **Omniverse** in these deployment scenarios, it generally is i
 
 ## Opening port for communications
 
-The assumption is that a remote worker outside the organizations firewall will need access to a workstation internally. In this situation, Teradici CAS requires a publicly accessible IP/FQDN and port(s) opened (TCP:443, TCP/UDP:4172) from the location (home/corporate) that has a workstation with Teradici CAS agent installed. A fallback option is a VPN connection, but VPNs have been known to hamper the performance of the PCoIP protocol as well from a security perspective the PCoIP protocol encrypts all traffic between the client and host devices as well. For larger deployment, where multiple workers will be establishing CAS connections into the corporate network, Teradici does offer a connection gateway product called [CAS Manager](https://www.teradici.com/web-help/cas_manager_as_a_service/?_ga=2.12859831.1699787421.1637180645-1894139970.1589168508). Its a fully featured connection broker that has a plethora of features. 
+The assumption is that a remote worker outside the organization's firewall will need access to a workstation internally. In this situation, Teradici CAS requires a publicly accessible IP/FQDN and port(s) opened from the location (home/corporate) that the a workstation resides in. A fallback is an VPN connection, but VPNs have been known to hamper the performance of the PCoIP protocol as wel the PCoIP protocol encrypts all traffic between the client and host devices. For larger deployment, where multiple workers will be establishing CAS connections, Teradici does offer a connection gateway called [CAS Manager](https://www.teradici.com/web-help/cas_manager_as_a_service/?_ga=2.12859831.1699787421.1637180645-1894139970.1589168508). Its a fully featured connection broker that has a plethora of features but won't be configuring it as apart of this quick start guide. 
+
++ Both Client and Host installs of CAS will configure OS level firewall rules
++ Current home firewalls have bi-directional policy that allows originating traffic back through IP/Port combinations.
++ Most firewall confiurations leave outbound ACLs open to all traffic
++ Inbound traffic to the workstation that has the CAS agent install need to have the following ports opened.
+```
+    TCP: 443, 4172, 60443
+    UDP :4172
+```
++ Many deployment will leverage a NAT or PAT rule mapping External IPs to Workstations Internal to specified port(s)
+
 
 ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Omniverse_deployment_guide/blob/main/images/Firewall%20rules.jpg)
 
