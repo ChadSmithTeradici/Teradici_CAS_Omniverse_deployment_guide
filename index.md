@@ -29,7 +29,6 @@ As it pertains to **Omniverse** in these deployment scenarios, it generally is i
 + Creating your first project
 
 ## Opening port for communications
-Teradici CAS requires port open on 
 
 The assumption is that a remote worker outside the organizations firewall will need access to a workstation. In this situation, Teradici CAS requires a publicly accessible IP/FQDN and port(s) opened (TCP:443, TCP/UDP:4172) from the location (home/corporate) that has a workstation with Teradici CAS agent installed. A fallback option is a VPN connection, but VPNs have been known to hamper the performance of the PCoIP protocol (runs underneath CAS). Also from a security perspective the PCoIP protocol encrypts all traffic between the client and host devices which is even more secure than traditional VPNsOmniverse communications happens between a Nucleus Workstation, dedicated Nucleus Server / Database and any file services holding the USD files. These services communicate within LAN as well as the associated OS level firewall rules are opened on application installation. 
 
