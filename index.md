@@ -45,7 +45,7 @@ The assumption is that a remote worker outside the organization's firewall will 
 
 ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Omniverse_deployment_guide/blob/main/images/Firewall%20rules.jpg)
 
-Omniverse communications happens between a Nucleus Workstation, dedicated Nucleus Server / Database and any file services holding the USD files. These services communicate within LAN as well as the associated OS level firewall rules are opened on application installation. 
+For Omniverse communications, it happens between a Nucleus Workstation, dedicated Nucleus Server / Database and any file services holding the USD files. These services communicate within LAN as well as any the associated OS level firewall rules which are generally opened on application installation. 
 
 ## Scenerio 1: Installing Teradici CAS client Client and connect to a Host
 In this section, you will establish a connection to your instance using PCoIP. You will need to install a PCoIP client on your client system that will be used to initiate the session to the EC2 Mac Instance in AWS. Depending on your network topology, use will either connect to the local IP (or) ephemeral/elastic Public IP (or) Fully Qualified Domain Names (FQDN)
