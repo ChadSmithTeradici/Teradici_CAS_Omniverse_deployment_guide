@@ -79,8 +79,6 @@ Being a Quick Start guide, alot of the details about CAS client have been left o
 + [Teradici CAS client for Linux guide.](https://www.teradici.com/web-help/pcoip_client/linux/21.07/?_ga=2.22107451.1699787421.1637180645-1894139970.1589168508)
 + [Teradici CAS client for MAC quide.](https://www.teradici.com/web-help/pcoip_client/mac/21.07/?_ga=2.22771131.1699787421.1637180645-1894139970.1589168508) 
 
-
-
 ## Scenerio 2: Installing Teradici CAS agent on a host workstation
 
 
