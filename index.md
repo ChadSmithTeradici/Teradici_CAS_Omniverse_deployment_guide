@@ -48,7 +48,7 @@ The assumption is that a remote worker outside the organization's firewall will 
 For Omniverse communications, it happens between a Nucleus Workstation, dedicated Nucleus Server / Database and any file services holding the USD files. These services communicate within LAN as well as any the associated OS level firewall rules which are generally opened on application installation. 
 
 ## Scenerio 1: Installing Teradici CAS client Client and connect to a Host
-In this section, which is referenced as scenario 1. You will obtain the software, install, and establish a connection to your CAS host. Depending on your network topology, use will either connect to the local IP,  Public IP (or) Fully Qualified Domain Names (FQDN) with the CAS client.
+In this section, which is referenced as Scenario 1. You will obtain the software, install, and establish a connection to your CAS host. Depending on your network topology, use will either connect to the local IP,  Public IP (or) Fully Qualified Domain Names (FQDN) with the CAS client.
 
 1. [Download the client installer](https://docs.teradici.com/find/product/software-and-mobile-clients) based on your client OS. You don't need a login credentials to download client software and can have as many copys of various client OS as you need.
 
@@ -75,4 +75,6 @@ In this section, which is referenced as scenario 1. You will obtain the software
     ![image](https://github.com/ChadSmithTeradici/TeradiciPCoIPonMACinAWS/blob/main/images/PCoIP-Auth.jpg)
 
 
-## Installing Teradici CAS agent on host
+## Scenerio 2: Installing Teradici CAS agent on a host workstation
+
+
