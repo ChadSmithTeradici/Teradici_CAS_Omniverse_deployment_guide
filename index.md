@@ -48,7 +48,7 @@ The assumption is that a remote worker outside the organization's firewall will 
 For Omniverse communications, it happens between a Nucleus Workstation, dedicated Nucleus Server / Database and any file services holding the USD files. These services communicate within LAN as well as any the associated OS level firewall rules which are generally opened on application installation. 
 
 ## Scenerio 1: Installing Teradici CAS client Client and connect to a Host
-In this section, which is referenced as Scenario 1. You will obtain the software, install, and establish a connection to your CAS host. Depending on your network topology, use will either connect to the local IP,  Public IP (or) Fully Qualified Domain Names (FQDN) with the CAS client.
+In this section, you will obtain the software, install, and establish a connection to your CAS host. Depending on your network topology, use will either connect to the local IP,  Public IP (or) Fully Qualified Domain Names (FQDN) with the CAS client.
 
 1. [Download the client installer](https://docs.teradici.com/find/product/software-and-mobile-clients) based on your client OS. You don't need a login credentials to download client software and can have as many copys of various client OS as you need.
 
@@ -80,5 +80,5 @@ Being a Quick Start guide, alot of the details about CAS client have been left o
 + [Teradici CAS client for MAC quide.](https://www.teradici.com/web-help/pcoip_client/mac/21.07/?_ga=2.22771131.1699787421.1637180645-1894139970.1589168508) 
 
 ## Scenerio 2: Installing Teradici CAS agent on a host workstation
-In this section, which is referenced as Scenario 2. A  user will create a login to obtain software, review dependencies and install Teradici CAS agent on a host workstation. I am assuming that because HP Z-workstations are only sold with Windows by default, The installation procedures will be based on Windows.There is installation direction for Linux (CentOS and Ubuntu) if desired. Directions on how to configure on [CAS Graphic agent for Linux](https://www.teradici.com/web-help/pcoip_agent/graphics_agent/linux/21.07/?_ga=2.9082165.1699787421.1637180645-1894139970.1589168508) available in the outside this guide.
+In this section, you will create a login to obtain software, review dependencies and install Teradici CAS agent on a host workstation. I am assuming that because HP Z-workstations are only sold with Windows by default, The installation procedures will be based on Windows.There is installation direction for Linux (CentOS and Ubuntu) if desired. Directions on how to configure on [CAS Graphic agent for Linux](https://www.teradici.com/web-help/pcoip_agent/graphics_agent/linux/21.07/?_ga=2.9082165.1699787421.1637180645-1894139970.1589168508) available in the outside this guide.
 
