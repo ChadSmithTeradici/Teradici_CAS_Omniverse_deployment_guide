@@ -48,15 +48,13 @@ The assumption is that a remote worker outside the organization's firewall will 
 For Omniverse communications, it happens between a Nucleus Workstation, dedicated Nucleus Server / Database and any file services holding the USD files. These services communicate within LAN as well as any the associated OS level firewall rules which are generally opened on application installation. 
 
 ## Scenerio 1: Installing Teradici CAS client Client and connect to a Host
-In this section, you will establish a connection to your instance using PCoIP. You will need to install a PCoIP client on your client system that will be used to initiate the session to the EC2 Mac Instance in AWS. Depending on your network topology, use will either connect to the local IP (or) ephemeral/elastic Public IP (or) Fully Qualified Domain Names (FQDN)
+In this section, which is referenced as scenario 1. You will obtain the software, install, and establish a connection to your CAS host. Depending on your network topology, use will either connect to the local IP,  Public IP (or) Fully Qualified Domain Names (FQDN) with the CAS client.
 
 1. [Download the client installer](https://docs.teradici.com/find/product/software-and-mobile-clients) based on your client OS. You don't need a login credentials to download client software and can have as many copys of various client OS as you need.
 
 1. Install the PCoIP client software per the OSs Administration Guides installation instructions.
 
-1. Locate the **IP address** or **FQDN** of the AWS EC2 Mac instance via the [EC2 Dashboard](https://console.aws.amazon.com/ec2)
-
-1. Identify the Mac instance within the list of **Running Instances** in the EC2 Dashboard, check the **box** near the instance name, if it was named.
+1. Locate the **IP address** or **FQDN** of the Host workstation.
 
 1. Under the **Details** tab you will see **Public IPv4 Address** (or) **Private IPv4 Address** (or) **Private IPv4 DNS** (or) **Public IPv4 DNS**
 
@@ -72,11 +70,9 @@ In this section, you will establish a connection to your instance using PCoIP. Y
     
     ![image](https://github.com/ChadSmithTeradici/TeradiciPCoIPonMACinAWS/blob/main/images/PCoIP-Trusted.jpg)
     
-1. Finally, enter in the macOS login credentials(**ec2-user**, if not changed)that you used previously in your VNC session to log into the instance.
+1. Finally, enter in the login credentials.
 
     ![image](https://github.com/ChadSmithTeradici/TeradiciPCoIPonMACinAWS/blob/main/images/PCoIP-Auth.jpg)
-
-
 
 
 ## Installing Teradici CAS agent on host
